@@ -1,7 +1,7 @@
 
-
+# -*- coding: utf-8 -*-
 import os
-
+import time
 def getpageinfo():
     n = 1
     max_num = 1000
@@ -10,6 +10,9 @@ def getpageinfo():
         url = url_source.format(n,5)
         os.system(url)
         n = n + 1
+        print n
+        time.sleep(10)  # 休眠1秒
+
 
 if __name__ == '__main__':
     getpageinfo()
