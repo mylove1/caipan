@@ -13,6 +13,24 @@ def getpageinfo():
         print n
         time.sleep(10)  # 休眠1秒
 
+def getpageinfo2():
+    import requests
+
+    data = {
+        'Param':'案件类型:刑事案件',
+        'index': 5,
+        'Page':5,
+        'Order':'法院层级',
+        'Direction':'asc'
+    }
+    url = "http://wenshu.court.gov.cn/List/ListContent"
+
+    proxies = {'http': '127.0.0.1:3128'}
+    proxies = {'http': '201.55.85.174:3128'}
+
+    print requests.post(url=url, data=data, proxies = proxies).content
+
+
 
 if __name__ == '__main__':
-    getpageinfo()
+    getpageinfo2()
