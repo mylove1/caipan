@@ -2,6 +2,24 @@
 # -*- coding: utf-8 -*-
 import os
 import time
+import random
+import requests
+import logging
+from RandomHeader import getHeaders
+
+logging.basicConfig(level=logging.DEBUG,
+                format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                datefmt='%a, %d %b %Y %H:%M:%S',
+                filename='myapp.log',
+                filemode='w')
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter('%(name)-8s: %(levelname)-8s %(message)s')
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
+
+url = "http://wenshu.court.gov.cn/List/ListContent"
+
 def getpageinfo():
     n = 1
     max_num = 1000
@@ -13,24 +31,71 @@ def getpageinfo():
         print n
         time.sleep(10)  # 休眠1秒
 
-def getpageinfo2():
-    import requests
+def getPageInfo(url, page_idx):
 
     data = {
-        'Param':'案件类型:刑事案件',
-        'index': 5,
-        'Page':5,
+        'Param':'文书类型:判决书',
+        'index': page_idx,
+        'Page':20,
         'Order':'法院层级',
         'Direction':'asc'
     }
-    url = "http://wenshu.court.gov.cn/List/ListContent"
 
+    """
+    # try proxy
     proxies = {'http': '127.0.0.1:3128'}
     proxies = {'http': '201.55.85.174:3128'}
 
     print requests.post(url=url, data=data, proxies = proxies).content
+    """
+    
+    headers = getHeaders()
+    response = requests.post(url=url, data=data, headers=headers)
+    return response.content
+
+def downloadPages(file, start_page, stop_page):
+
+    def verify(content):
+        return len(content) > 40
+
+    def _checkpoint(idx):
+        if ((idx-start_page)%20 == 1) or (idx >= stop_page):
+            with open(file,'wb') as f:
+                f.write(contents)
+
+    
+    tryout = 0
+    idx = start_page
+    contents = 'start\n'
+    while(idx <= stop_page):
+        _checkpoint(idx)
+
+        logging.info("try obtain page: %d"%idx)
+        content = getPageInfo(url, idx)
+        success = verify(content)
+        if success:
+            contents = contents+"page No.:%d \n"%idx+content+"\n\n"
+
+            logging.info("success")
+            tryout = 0
+            idx += 1
+        else:
+            tryout += 1
+            logging.info("failed, tried %d times"%tryout)
+
+        if tryout > 20:
+            logging.info("exceed maximum tryouts")
+            break
+
+        time.sleep(1+2*random.random())
+
+    _checkpoint(idx)
+    logging.info("finished download %d ~ %d pages"%(start_page, idx)) 
+
 
 
 
 if __name__ == '__main__':
-    getpageinfo2()
+    logging.info('start')
+    file_path = os.path.join(os.path.split(__file__)[0],'pageinfo.txt')
+    downloadPages(file_path, 1, 400)
