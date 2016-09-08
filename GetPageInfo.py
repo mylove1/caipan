@@ -6,6 +6,7 @@ import random
 import requests
 import logging
 from RandomHeader import getHeaders
+from RecognizeVCode import crackVcode
 
 logging.basicConfig(level=logging.DEBUG,
                 format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
@@ -51,7 +52,7 @@ def getPageInfo(url, page_idx):
     
     headers = getHeaders()
     response = requests.post(url=url, data=data, headers=headers)
-    return response.content
+    return response
 
 def downloadPages(file, start_page, stop_page):
 
@@ -71,7 +72,8 @@ def downloadPages(file, start_page, stop_page):
         _checkpoint(idx)
 
         logging.info("try obtain page: %d"%idx)
-        content = getPageInfo(url, idx)
+        response = getPageInfo(url, idx)
+        content = response.content
         success = verify(content)
         if success:
             contents = contents+"page No.:%d \n"%idx+content+"\n\n"
@@ -82,15 +84,19 @@ def downloadPages(file, start_page, stop_page):
         else:
             tryout += 1
             logging.info("failed, tried %d times"%tryout)
+            _,res = crackVcode()
+            logging.info("crack reault: %s (1: success, 2: failed)"%res)
+            if int(res) == 1:
+                #time.sleep(20) #after test this "waiting trick" does not work
 
         if tryout > 20:
             logging.info("exceed maximum tryouts")
             break
 
-        time.sleep(1+2*random.random())
+        time.sleep(0.5+0.5*random.random())
 
     _checkpoint(idx)
-    logging.info("finished download %d ~ %d pages"%(start_page, idx)) 
+    logging.info("finished download %d ~ %d pages"%(start_page, idx-1)) 
 
 
 
