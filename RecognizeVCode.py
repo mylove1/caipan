@@ -22,14 +22,21 @@ def crackVcode():
     'Cookie': 'ASP.NET_SessionId=3ks3gtwmyrfnqdsjmvetvqp5; wafenterurl=/List/List; wafcookie=a12defabf56a5562db7cb80c216203a4; __utma=61363882.568771455.1473331186.1473331186.1473331186.1; __utmc=61363882; __utmz=61363882.1473331186.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); JSESSIONID=aaazJcvVU--trcboOF5Bv; Hm_lvt_3f1a54c5a86d62407544d433f6418ef5=1472542915,1472543876,1473311822,1473311827; Hm_lpvt_3f1a54c5a86d62407544d433f6418ef5=1473335174; _gscu_2116842793=71588436x2efq281; _gscs_2116842793=t73329792gshhbf12|pv:33; _gscbrs_2116842793=1; _gsref_2116842793=http://wenshu.court.gov.cn/'
     }
 
-    response = requests.get(url=url, headers=headers)
+    try:
+        response = requests.get(url=url, headers=headers, timeout=3)
+        f = open("tmp.jpg","w")
+        f.write(response.content)
+        f.close()
+        
+        vcode = recognizeVCode("tmp.jpg")
+        
+        result = checkVcode(vcode)
+    except Exception,e:
+        print Exception,':',e
+        vcode = 0
+        result = 0
 
-    s = StringIO.StringIO()
-    s.write(response.content)
-
-    vcode = recognizeVCode(s)
-
-    result = checkVcode(vcode)
+		
 
     return vcode, result
 
@@ -51,9 +58,12 @@ def checkVcode(vcode):
     'Cookie': 'ASP.NET_SessionId=3ks3gtwmyrfnqdsjmvetvqp5; wafenterurl=/List/List; wafcookie=a12defabf56a5562db7cb80c216203a4; __utma=61363882.568771455.1473331186.1473331186.1473331186.1; __utmc=61363882; __utmz=61363882.1473331186.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); JSESSIONID=aaazJcvVU--trcboOF5Bv; Hm_lvt_3f1a54c5a86d62407544d433f6418ef5=1472542915,1472543876,1473311822,1473311827; Hm_lpvt_3f1a54c5a86d62407544d433f6418ef5=1473335174; _gscu_2116842793=71588436x2efq281; _gscs_2116842793=t73329792gshhbf12|pv:33; _gscbrs_2116842793=1; _gsref_2116842793=http://wenshu.court.gov.cn/'
     }
 
-    response = requests.post(url=url, data=data, headers=headers)
+    try:
+        response = requests.post(url=url, data=data, headers=headers, timeout=3)
+        return response.content
+    except Exception,e:
+        print Exception,':',e
 
-    return response.content
 
 def recognizeVCode(picture_url):
 

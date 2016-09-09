@@ -70,7 +70,7 @@ def getPageInfo(url, page_idx, search_params):
         '_gscu_2116842793': '71588436x2efq281', 
         '_gscs_2116842793': 't73389711qxmxto12|pv:7; _gscbrs_2116842793=1'
     }
-    response = requests.post(url=url, data=data, headers=headers, cookies = cookies)
+    response = requests.post(url=url, data=data, headers=headers, cookies = cookies, timeout=3)
     return response
 
 def downloadPages(file, start_page, stop_page, search_params):
@@ -114,28 +114,13 @@ def downloadPages(file, start_page, stop_page, search_params):
             logging.info("failed, tried %d times"%tryout)
             _,res = crackVcode()
             logging.info("crack result: %s (1: success, 2: failed)"%res)
-            """if int(res) == 1:
-                requests.get(url='http://wenshu.court.gov.cn/list/list/?sorttype=1&conditions=searchWord+%E5%88%A4%E5%86%B3%E4%B9%A6+++%E6%96%87%E4%B9%A6%E7%B1%BB%E5%9E%8B:%E5%88%A4%E5%86%B3%E4%B9%A6',
-                headers ={
-                'Host': 'wenshu.court.gov.cn',
-                'Connection': 'keep-alive',
-                'Cache-Control': 'max-age=0',
-                'Upgrade-Insecure-Requests': 1,
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 
-                'Referer': 'http://wenshu.court.gov.cn/list/list/?sorttype=1',
-                'Accept-Encoding': 'gzip, deflate, sdch',
-                'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6',
-                'Cookie': 'ASP.NET_SessionId=3ks3gtwmyrfnqdsjmvetvqp5; wafenterurl=/List/List; wafcookie=a12defabf56a5562db7cb80c216203a4; __utma=61363882.568771455.1473331186.1473331186.1473331186.1; __utmc=61363882; __utmz=61363882.1473331186.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); JSESSIONID=aaaD5WhpFlEi6e4nUP8Bv; _gsref_2116842793=http://wenshu.court.gov.cn/; _gscu_2116842793=71588436x2efq281; _gscs_2116842793=t73389711qxmxto12|pv:8; _gscbrs_2116842793=1; Hm_lvt_3f1a54c5a86d62407544d433f6418ef5=1472542915,1472543876,1473311822,1473311827; Hm_lpvt_3f1a54c5a86d62407544d433f6418ef5=1473392%d'%(random.randint(100,999))
-                })
-                #time.sleep(20) #after test this "waiting trick" does not work
-                pass"""
+           
 
         if tryout > 1:
             logging.info("exceed maximum tryouts")
             break
 
-        #time.sleep(0.1+0.1*random.random())
+        time.sleep(0.1+0.5*random.random())
 
     _write2file()
     logging.info("finished download %d ~ %d pages"%(start_page, idx-1))
