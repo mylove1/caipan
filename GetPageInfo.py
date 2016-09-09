@@ -165,6 +165,14 @@ def downloadPlan(start_page, stop_page):
 
 def processControl():
 
+    def foreverTry():
+        while(1):
+            try:
+                downloadPages(file_path, 1, 100, search_params)
+                break
+            except Exception, e:
+                logging.error(e)
+
     states_list = ["北京市","天津市","河北省","山西省","内蒙古自治区","辽宁省","吉林省","黑龙江省","上海市","江苏省","浙江省","安徽省",
         "福建省","江西省","山东省","河南省","湖北省"]#,"湖南省","广东省","广西壮族自治区","海南省","重庆市","四川省","贵州省",
         #"云南省","西藏自治区","陕西省","甘肃省","青海省","宁夏回族自治区","新疆维吾尔自治区","新疆维吾尔自治区高级人民法院生产建设兵团分院"]
@@ -176,7 +184,7 @@ def processControl():
         for year in xrange(1996,2011):
 
             search_params = "文书类型:判决书,法院地域:{},裁判年份:{}".format(state,year)
-            downloadPages(file_path, 1, 100, search_params)
+            foreverTry()
 
         for year in xrange(2011,2013):
             for month in xrange(1,13):
@@ -184,13 +192,13 @@ def processControl():
                     search_params = "文书类型:判决书,法院地域:{},裁判日期:{} TO {}".format(state, "%04d-%02d-01"%(year,month), "%04d-%02d-01"%(year,month+1))
                 else:
                     search_params = "文书类型:判决书,法院地域:{},裁判日期:{} TO {}".format(state, "%04d-%02d-01"%(year,month), "%04d-%02d-01"%(year+1,1))
-                downloadPages(file_path, 1, 100, search_params)
+                foreverTry()
 
 
 
         for date in datelist((2013, 1, 1), (2016, 9, 9)):
             search_params = "文书类型:判决书,法院地域:{},裁判日期:{} TO {}".format(state, date, date)
-            downloadPages(file_path, 1, 100, search_params)
+            foreverTry()
 
             
 
