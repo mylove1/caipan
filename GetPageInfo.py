@@ -8,6 +8,7 @@ import logging
 import datetime
 from RandomHeader import getHeaders
 from RecognizeVCode import crackVcode
+import pdb
 
 logging.basicConfig(level=logging.DEBUG,
                 format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
@@ -78,7 +79,7 @@ def downloadPages(file, start_page, stop_page, search_params):
         return len(content) > 40
 
     def _checkpoint(idx, contents):
-        if ((idx-start_page)%20 == 1) or (idx >= stop_page):
+        if ((idx-start_page)%20 == 19) or (idx >= stop_page):
             with open(file,'a') as f:
                 f.write(contents)
             return ''
@@ -87,17 +88,18 @@ def downloadPages(file, start_page, stop_page, search_params):
             return contents
 
     def _write2file():
-        with open(file,'a') as f:
-                f.write(contents)
+        if len(contents) > 6:
+            with open(file,'a') as f:
+                    f.write(contents)
 
     
     tryout = 0
     idx = start_page
-    contents = 'start\n'
+    contents = ''
     while(idx <= stop_page):
         contents = _checkpoint(idx, contents)
 
-        logging.info("try obtain page: %d"%idx)
+        logging.info(search_params+"try obtain page: %d"%idx)
         response = getPageInfo(url, idx, search_params)
         content = response.content
         success = verify(content)
@@ -129,11 +131,11 @@ def downloadPages(file, start_page, stop_page, search_params):
                 #time.sleep(20) #after test this "waiting trick" does not work
                 pass"""
 
-        if tryout > 10:
+        if tryout > 1:
             logging.info("exceed maximum tryouts")
             break
 
-        time.sleep(0.1+0.5*random.random())
+        #time.sleep(0.1+0.1*random.random())
 
     _write2file()
     logging.info("finished download %d ~ %d pages"%(start_page, idx-1))
@@ -164,8 +166,8 @@ def downloadPlan(start_page, stop_page):
 def processControl():
 
     states_list = ["北京市","天津市","河北省","山西省","内蒙古自治区","辽宁省","吉林省","黑龙江省","上海市","江苏省","浙江省","安徽省",
-        "福建省","江西省","山东省","河南省","湖北省","湖南省","广东省","广西壮族自治区","海南省","重庆市","四川省","贵州省",
-        "云南省","西藏自治区","陕西省","甘肃省","青海省","宁夏回族自治区","新疆维吾尔自治区","新疆维吾尔自治区高级人民法院生产建设兵团分院"]
+        "福建省","江西省","山东省","河南省","湖北省"]#,"湖南省","广东省","广西壮族自治区","海南省","重庆市","四川省","贵州省",
+        #"云南省","西藏自治区","陕西省","甘肃省","青海省","宁夏回族自治区","新疆维吾尔自治区","新疆维吾尔自治区高级人民法院生产建设兵团分院"]
     for state in states_list:
 
         file_path = os.path.join(os.path.split(__file__)[0],
@@ -176,7 +178,17 @@ def processControl():
             search_params = "文书类型:判决书,法院地域:{},裁判年份:{}".format(state,year)
             downloadPages(file_path, 1, 100, search_params)
 
-        for date in datelist((2011, 1, 1), (2016, 9, 9)):
+        for year in xrange(2011,2013):
+            for month in xrange(1,13):
+                if month <12:
+                    search_params = "文书类型:判决书,法院地域:{},裁判日期:{} TO {}".format(state, "%04d-%02d-01"%(year,month), "%04d-%02d-01"%(year,month+1))
+                else:
+                    search_params = "文书类型:判决书,法院地域:{},裁判日期:{} TO {}".format(state, "%04d-%02d-01"%(year,month), "%04d-%02d-01"%(year+1,1))
+                downloadPages(file_path, 1, 100, search_params)
+
+
+
+        for date in datelist((2013, 1, 1), (2016, 9, 9)):
             search_params = "文书类型:判决书,法院地域:{},裁判日期:{} TO {}".format(state, date, date)
             downloadPages(file_path, 1, 100, search_params)
 
