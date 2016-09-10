@@ -5,8 +5,9 @@ import StringIO
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
+from os.path import join, getsize
 
-def crackVcode():
+def crackVcode(name):
 
     url = 'http://wenshu.court.gov.cn/User/ValidateCode'
 
@@ -26,12 +27,16 @@ def crackVcode():
 
     s = StringIO.StringIO()
     s.write(response.content)
+    file = open("./123{}.jpg".format(name),'wb')
+    file.write(response.content)
+    file.close()
 
-    vcode = recognizeVCode(s)
-
-    result = checkVcode(vcode)
-
-    return vcode, result
+    if getsize("./123{}.jpg".format(name)) < 2000:
+        vcode = recognizeVCode(s,name)
+        result = checkVcode(vcode)
+        return vcode, result
+    else:
+        return 1111, 1
 
 def checkVcode(vcode):
 
@@ -55,7 +60,7 @@ def checkVcode(vcode):
 
     return response.content
 
-def recognizeVCode(picture_url):
+def recognizeVCode(picture_url,name):
 
     try:
         import pytesseract
@@ -63,14 +68,17 @@ def recognizeVCode(picture_url):
     except ImportError:
        print "导入失败！检查是否安装PIL or tesseract-ocr"
 
-    image = Image.open(picture_url)
+
+    image = Image.open("./123{}.jpg".format(name))
+    # image.show
     vcode = pytesseract.image_to_string(image)
     return vcode
 
 if  __name__== "__main__":
-    #picture_url = 'ValidateCode.jpg'
-    vcode, result = crackVcode()
+    picture_url = 'ValidateCode.jpg'
+    vcode, result = crackVcode("ddd")
     print vcode, 'result:', result
+    # print recognizeVCode(picture_url)
 
 
 """http://wenshu.court.gov.cn/waf_verify.htm"""

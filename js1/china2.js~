@@ -1,6 +1,5 @@
 var webpage = require('webpage'), page = webpage.create();
 var fs = require('fs');
-
 page.viewportSize = { width: 1024, height: 800 };
 page.clipRect = { top: 0, left: 0, width: 1024, height: 800 };
 page.settings = {
@@ -39,35 +38,13 @@ page.open('http://wenshu.court.gov.cn/List/List?sorttype=1&conditions=searchWord
       page.includeJs("http://libs.baidu.com/jquery/2.0.0/jquery.js", function () {
           page.evaluate(function () { //操作页面事件
           console.log("jQuery version:" + jQuery.fn.jquery);
-          //var iter = 0
-	  //while(iter<3){ 
-//	  console.log(document.getElementById("pageNumber").getElementsByTagName('a')[0].outerHTML);
-	  //console.log((a2));
 	  for (var i=0; i<5; i++){
 	      console.log(document.getElementsByClassName("download")[i].getElementsByTagName("img")[0].outerHTML);
 	  }
-	  //iter = iter + 1;
-
-	  //}
+	  document.getElementById("pageNumber").getElementsByTagName('a')[0].click()//报错
       });
-
-
-	 page.includeJs("http://wenshu.court.gov.cn/Assets/js/libs/js/framework.js", function () {
-          page.evaluate(function () { //操作页面事件
-          console.log("jQuery version:" + jQuery.fn.jquery);
-          //var iter = 0
-	  //while(iter<3){ 
-//	  console.log(document.getElementById("pageNumber").getElementsByTagName('a')[0].outerHTML);
-	  //console.log((a2));
-	 
-	  document.getElementById("pageNumber").getElementsByTagName('a')[2].click();
-	  //iter = iter + 1;
-
-	  //}
-      });
-   
         setTimeout(function () {
-          page.render('../snapshot/taoba2o.png');
+          page.render('../snapshot/jietu.png');
         }, 2000);
         //console.log()
         var t = Date.now() - page.startTime; //页面加载完成后的当前时间减去页面开始加载的时间，为整个页面加载时间
@@ -80,13 +57,6 @@ page.open('http://wenshu.court.gov.cn/List/List?sorttype=1&conditions=searchWord
         }, 0);
       });
     });
-  
-    //1
-
-
-
-
-
 });
 
 
@@ -104,7 +74,7 @@ function waitFor(testFx, onReady, timeOutMillis) {
     interval = setInterval(function () {
       if ((new Date().getTime() - start < maxtimeOutMillis) && !condition) {
         // If not time-out yet and condition not yet fulfilled
-        screan('../snapshot/taobao.png');
+        screan('../snapshot/jietu.png');
         condition = (typeof (testFx) === "string" ? eval(testFx) : testFx()); //< defensive code
       } else {
         if (!condition) {

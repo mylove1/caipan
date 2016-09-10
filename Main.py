@@ -137,11 +137,7 @@ def createTheForm1():
     return r2.url
 
 def test():
-
-
-
     # http: // wenshu.court.gov.cn / List / ListContent - -post - data = "Param=%E6%A1%88%E4%BB%B6%E7%B1%BB%E5%9E%8B%3A%E5%88%91%E4%BA%8B%E6%A1%88%E4%BB%B6&Index=2&Page=5&Order=%E6%B3%95%E9%99%A2%E5%B1%82%E7%BA%A7&Direction=asc"
-
     n = 1
     url_source = 'wget http://wenshu.court.gov.cn/List/ListContent --post-data="Param=%E6%A1%88%E4%BB%B6%E7%B1%BB%E5%9E%8B%3A%E5%88%91%E4%BA%8B%E6%A1%88%E4%BB%B6&Index={}&Page={}&Order=%E6%B3%95%E9%99%A2%E5%B1%82%E7%BA%A7&Direction=asc"'
     while(n<10):
@@ -161,5 +157,14 @@ if __name__ == '__main__':
     # # a = createTheForm1()
     # a = createTheForm1()
     # urllib.urlretrieve(a, './2.html')
-    test()
+    import os
+    file  = open('./page/record广东省.txt','w')
+    file.write("page:10,date:2015-04-10")
+    file.close()
+    file = open('./page/record广东省.txt', 'r')
+    source_ss = file.read()
+    maps = source_ss.split(',')
+    items = maps[0].split(':')
+    items_date = maps[1].split(':')
+    print items_date[1]
 

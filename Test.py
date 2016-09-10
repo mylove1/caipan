@@ -16,3 +16,6 @@ except ImportError:
 image = Image.open('./ValidateCode1.jpg')
 vcode = pytesseract.image_to_string(image)
 print vcode
+
+
+
