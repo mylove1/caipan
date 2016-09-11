@@ -96,24 +96,24 @@ def downloadPages(state):
     num_lxg = 0
     idx = page_id
     t = 1	
-    date_start = start_date
+    date_start1 = start_date
     while(t<31):
-        date_start = date_start - datetime.timedelta(1) 
+        date_start1 = date_start1 + datetime.timedelta(1) 
 	t += 1
-    for date in datelist(start_date, (2016, 9, 9)):  # (2013,1,1),(2016,9,9)
+    for date in datelist(date_start1, (2016, 9, 9)):  # (2013,1,1),(2016,9,9)
         idx = page_id
         date_lxg = date
 
         tryout = 0
         while (idx <= page_id+99):
 
-            logging.info('try obtain page: {},文书类型:判决书,裁判日期:{} TO {},法院地域:{}'.format(idx, date_start, date, state))
-            response = getPageInfo(url, idx, date_start, date, state)
+            logging.info('try obtain page: {},文书类型:判决书,裁判日期:{} TO {},法院地域:{}'.format(idx, start_date, date, state))
+            response = getPageInfo(url, idx, start_date, date, state)
 
             content = response.content
             success = verify(content)
             if success:
-                contents = "文书类型:判决书,裁判日期:{} TO {},法院地域:{},page No.:{} \n\n".format(date_start, date, state, idx) + content
+                contents = "文书类型:判决书,裁判日期:{} TO {},法院地域:{},page No.:{} \n\n".format(start_date, date, state, idx) + content
                 _checkpoint(contents)
                 logging.info("successful")
                 tryout = 0
@@ -122,20 +122,19 @@ def downloadPages(state):
             else:
                 tryout += 1
                 logging.info("failed, tried %d times" % tryout)
-
                 _, res = crackVcode(state)
                 logging.info("crack reault: %s (1: success, 2: failed)" % res)
-                # if int(res) == 1:
-                #     break
+                if int(res) == 1:
+                     break
             time.sleep(2* random.random())  # after test this "waiting trick" does not work
-            
-            if tryout > 4:
+            #
+            if tryout > 10:
                 logging.info("exceed maximum tryouts")
                 break
             if (num_lxg >= 99):
                 break
-        page_id = 0
-        date_start  = date
+        page_id = 1
+        start_date  = date
         if(num_lxg>=99):
             break
 	logging.info('total---{}'.format(num_lxg))
@@ -167,9 +166,9 @@ if __name__ == '__main__':
     logging.info('start')
 
     #downloadPages(1, 100,sys.argv[0],sys.argv[0])
-    #response = getPageInfo(url, 9, "2012-01-01","2012-02-01","四川省")
+    #response = getPageInfo(url, 1, "2012-03-02","2012-04-01","四川省")
     #print response.content
-    	downloadPages("四川省")
+    downloadPages("四川省")
     # "北京市", "天津市", "河北省", "山西省", "内蒙古自治区", "辽宁省", "吉林省", "黑龙江省", "上海市", "江苏省", "浙江省", "安徽省",
     # "福建省", "江西省", "山东省", "河南省", "湖北省",
     # "重庆市","广东省", "广西壮族自治区", "海南省", "四川省", "贵州省",
