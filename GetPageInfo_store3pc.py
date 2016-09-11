@@ -157,7 +157,7 @@ def datelist(start, end):  # (2014,4,5),(2014,5,7) => 2 days:{2014-04-05),(2014-
     result = []
     curr_date = start_date
     while curr_date != end_date:
-        if(int(curr_date.day)%5==1):
+        if(int(curr_date.day)%3==1):
             result.append("%04d-%02d-%02d" % (curr_date.year, curr_date.month, curr_date.day))
 	t = 1	
 	#while(t<31):
