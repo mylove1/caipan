@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import logging
-from GetPageInfo_store import downloadPages
+from GetPageInfo_store2pc import downloadPages
 import threading
 url = "http://wenshu.court.gov.cn/List/ListContent"
 logging.basicConfig(level=logging.DEBUG,
@@ -32,8 +32,7 @@ class myThread(threading.Thread):
 
 
 if __name__ == '__main__':
-    t = myThread("广东省")
-    t.start()
+
 
     t1 = myThread("广西壮族自治区")
     t1.start()
@@ -41,8 +40,7 @@ if __name__ == '__main__':
     t2 = myThread("海南省")
     t2.start()
 
-    t3 = myThread("四川省")
-    t3.start()
+
 
     t4 = myThread("贵州省")
     t4.start()
