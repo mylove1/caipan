@@ -142,9 +142,10 @@ def downloadPages(state):
         #if(num_lxg>=99):
         #    break
 	logging.info('total---{}'.format(num_lxg))
-    re_file = open(re_file_path, 'w')
-    re_file.write("{}-{}-{}".format(idx, date_lxg, start_date))
-    re_file.close()
+	
+        re_file = open(re_file_path, 'w')
+	re_file.write("{}-{}-{}".format(idx, date_lxg, start_date))
+	re_file.close()
     logging.info("finished download")
 
 
@@ -156,7 +157,7 @@ def datelist(start, end):  # (2014,4,5),(2014,5,7) => 2 days:{2014-04-05),(2014-
     result = []
     curr_date = start_date
     while curr_date != end_date:
-        if(int(curr_date.day)==1 | int(curr_date.day)==15):
+        if(int(curr_date.day)%5==1):
             result.append("%04d-%02d-%02d" % (curr_date.year, curr_date.month, curr_date.day))
 	t = 1	
 	#while(t<31):
