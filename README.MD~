@@ -8,8 +8,9 @@ download.py: 依次读取ListContent，形成下载链接，进行下载
 
 
 # 运行方式
-1. 由于每次只能下载100页，所以每运行一次程序下载100页，在"/page1/"中保存断点，断点格式为：page-startdate-enddate.
+1. 由于每次只能下载100页，所以每运行一次程序下载100页，在"/page1/"中保存断点，断点格式为：page-startdate-enddate.也不能用多线程，否则会被封ip，代理ip也是个办法。
 
 2. 主程序在GetPageInfo_store2pc.py中。直接运行即可。
+python GetPageInfo_store2pc.py 四川省
 
 
