@@ -65,7 +65,7 @@ def getPageInfo(url, page_idx, start_date, end_date, areaName):  # 3,2012-09-11,
 
 
 def downloadPages(state):
-    re_file_path = ('./page/record{}.txt'.format(state))
+    re_file_path = ('./page1/record{}.txt'.format(state))
     file_path = ('./page/info{}.txt'.format(state))
 
     # read
