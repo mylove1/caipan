@@ -118,13 +118,13 @@ def downloadPages(state):
                 tryout += 1
                 logging.info("failed, tried %d times" % tryout)
 
-                _, res = crackVcode("ee")
+                _, res = crackVcode(state)
                 logging.info("crack reault: %s (1: success, 2: failed)" % res)
                 # if int(res) == 1:
                 #     break
-            time.sleep(3 + 2* random.random())  # after test this "waiting trick" does not work
+            time.sleep(2* random.random())  # after test this "waiting trick" does not work
             #
-            if tryout > 1:
+            if tryout > 4:
                 logging.info("exceed maximum tryouts")
                 break
             if (num_lxg >= 99):
@@ -132,6 +132,7 @@ def downloadPages(state):
         page_id = 0
         if(num_lxg>=99):
             break
+	logging.info('total---{}'.format(num_lxg))
     re_file = open(re_file_path, 'w')
     re_file.write("{}-{}".format(idx, date_lxg))
     re_file.close()
@@ -156,7 +157,7 @@ if __name__ == '__main__':
     logging.info('start')
 
     # downloadPages(1, 100,sys.argv[0],sys.argv[0])
-    downloadPages("广东省")
+    downloadPages("广西壮族自治区")
     # "北京市", "天津市", "河北省", "山西省", "内蒙古自治区", "辽宁省", "吉林省", "黑龙江省", "上海市", "江苏省", "浙江省", "安徽省",
     # "福建省", "江西省", "山东省", "河南省", "湖北省",
     # "重庆市","广东省", "广西壮族自治区", "海南省", "四川省", "贵州省",
