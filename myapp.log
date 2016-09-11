@@ -1,338 +1,114 @@
-Sun, 11 Sep 2016 17:25:32 GetPageInfo_store2pc.py[line:170] INFO start
-Sun, 11 Sep 2016 17:25:32 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 38,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:32 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:32 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:34 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 214576
-Sun, 11 Sep 2016 17:25:34 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:36 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 39,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:36 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:36 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:37 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 47049
-Sun, 11 Sep 2016 17:25:37 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:37 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 40,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:37 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:37 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:38 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 44680
-Sun, 11 Sep 2016 17:25:38 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:39 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 41,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:39 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:39 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:40 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 42694
-Sun, 11 Sep 2016 17:25:40 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:40 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 42,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:40 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:40 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:41 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 54245
-Sun, 11 Sep 2016 17:25:41 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:41 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 43,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:41 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:41 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:42 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 49643
-Sun, 11 Sep 2016 17:25:42 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:43 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 44,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:43 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:43 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:43 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 41086
-Sun, 11 Sep 2016 17:25:43 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:44 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 45,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:44 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:44 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:44 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 63385
-Sun, 11 Sep 2016 17:25:44 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:44 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 46,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:44 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:45 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:45 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 60268
-Sun, 11 Sep 2016 17:25:45 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:47 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 47,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:47 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:47 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:48 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 43510
-Sun, 11 Sep 2016 17:25:48 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:49 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 48,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:49 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:49 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:49 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 42277
-Sun, 11 Sep 2016 17:25:49 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:50 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 49,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:50 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:51 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:51 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 55093
-Sun, 11 Sep 2016 17:25:51 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:53 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 50,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:53 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:53 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:54 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 38386
-Sun, 11 Sep 2016 17:25:54 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:56 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 51,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:56 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:56 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:56 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 29947
-Sun, 11 Sep 2016 17:25:56 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:25:57 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 52,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:25:57 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:25:58 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:25:58 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 36705
-Sun, 11 Sep 2016 17:25:58 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:00 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 53,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:00 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:00 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:01 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 41416
-Sun, 11 Sep 2016 17:26:01 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:03 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 54,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:03 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:03 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:04 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 36733
-Sun, 11 Sep 2016 17:26:04 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:05 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 55,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:05 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:05 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:06 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 31881
-Sun, 11 Sep 2016 17:26:06 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:07 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 56,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:07 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:07 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:08 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 42166
-Sun, 11 Sep 2016 17:26:08 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:10 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 57,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:10 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:10 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:11 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 46122
-Sun, 11 Sep 2016 17:26:11 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:12 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 58,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:12 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:13 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:13 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 48183
-Sun, 11 Sep 2016 17:26:13 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:14 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 59,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:14 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:14 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:34 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 44400
-Sun, 11 Sep 2016 17:26:34 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:34 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 60,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:34 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:34 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:35 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 42597
-Sun, 11 Sep 2016 17:26:35 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:37 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 61,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:37 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:37 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:38 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 47971
-Sun, 11 Sep 2016 17:26:38 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:39 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 62,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:39 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:39 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:40 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 38763
-Sun, 11 Sep 2016 17:26:40 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:41 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 63,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:41 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:41 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:42 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 48779
-Sun, 11 Sep 2016 17:26:42 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:43 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 64,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:43 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:43 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:44 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 40770
-Sun, 11 Sep 2016 17:26:44 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:45 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 65,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:45 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:45 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:46 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 52941
-Sun, 11 Sep 2016 17:26:46 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:48 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 66,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:48 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:48 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:49 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 53548
-Sun, 11 Sep 2016 17:26:49 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:50 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 67,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:50 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:50 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:50 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 29258
-Sun, 11 Sep 2016 17:26:50 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:52 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 68,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:52 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:52 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:53 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 40342
-Sun, 11 Sep 2016 17:26:53 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:54 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 69,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:54 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:54 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:55 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 206949
-Sun, 11 Sep 2016 17:26:55 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:55 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 70,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:55 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:55 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:56 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 38744
-Sun, 11 Sep 2016 17:26:56 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:57 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 71,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:57 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:57 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:26:58 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 51524
-Sun, 11 Sep 2016 17:26:58 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:26:59 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 72,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:26:59 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:26:59 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:00 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 43058
-Sun, 11 Sep 2016 17:27:00 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:02 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 73,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:02 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:02 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:03 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 34157
-Sun, 11 Sep 2016 17:27:03 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:04 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 74,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:04 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:04 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:05 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 30590
-Sun, 11 Sep 2016 17:27:05 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:06 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 75,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:06 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:06 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:07 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 37206
-Sun, 11 Sep 2016 17:27:07 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:07 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 76,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:07 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:07 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:08 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 37493
-Sun, 11 Sep 2016 17:27:08 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:09 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 77,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:09 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:09 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:10 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 39129
-Sun, 11 Sep 2016 17:27:10 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:11 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 78,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:11 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:11 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:11 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 48395
-Sun, 11 Sep 2016 17:27:11 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:12 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 79,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:12 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:12 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:12 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 39325
-Sun, 11 Sep 2016 17:27:12 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:13 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 80,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:13 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:13 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:13 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 45749
-Sun, 11 Sep 2016 17:27:14 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:14 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 81,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:14 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:14 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:14 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 52023
-Sun, 11 Sep 2016 17:27:15 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:15 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 82,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:15 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:15 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:16 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 43945
-Sun, 11 Sep 2016 17:27:16 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:18 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 83,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:18 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:18 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:18 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 54044
-Sun, 11 Sep 2016 17:27:19 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:20 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 84,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:20 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:20 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:20 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 47637
-Sun, 11 Sep 2016 17:27:20 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:21 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 85,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:21 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:21 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:22 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 30464
-Sun, 11 Sep 2016 17:27:22 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:22 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 86,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:22 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:22 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:23 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 39429
-Sun, 11 Sep 2016 17:27:23 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:24 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 87,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:24 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:24 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:25 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 45881
-Sun, 11 Sep 2016 17:27:25 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:25 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 88,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:25 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:25 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:26 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 35389
-Sun, 11 Sep 2016 17:27:26 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:27 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 89,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:27 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:27 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:27 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 39276
-Sun, 11 Sep 2016 17:27:28 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:30 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 90,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:30 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:30 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:30 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 41591
-Sun, 11 Sep 2016 17:27:30 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:32 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 91,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:32 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:32 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:32 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 50696
-Sun, 11 Sep 2016 17:27:33 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:33 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 92,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:33 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:33 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:35 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 54351
-Sun, 11 Sep 2016 17:27:35 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:35 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 93,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:35 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:35 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:36 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 60612
-Sun, 11 Sep 2016 17:27:36 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:37 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 94,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:37 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:37 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:38 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 50205
-Sun, 11 Sep 2016 17:27:38 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:39 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 95,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:39 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:39 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:40 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 40246
-Sun, 11 Sep 2016 17:27:40 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:41 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 96,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:41 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:41 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:42 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 17551
-Sun, 11 Sep 2016 17:27:42 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:43 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 97,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:43 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:43 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:44 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 43429
-Sun, 11 Sep 2016 17:27:44 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:45 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 98,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:45 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:45 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:47 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 50442
-Sun, 11 Sep 2016 17:27:47 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:48 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 99,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:48 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:48 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:49 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 59963
-Sun, 11 Sep 2016 17:27:49 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:50 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 100,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:50 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:50 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:50 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 51504
-Sun, 11 Sep 2016 17:27:51 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:53 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 101,文书类型:判决书,裁判日期:2013-04-01 TO 2013-05-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:53 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:54 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:54 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 4
-Sun, 11 Sep 2016 17:27:54 GetPageInfo_store2pc.py[line:128] INFO failed, tried 1 times
-Sun, 11 Sep 2016 17:27:54 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:54 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:54 connectionpool.py[line:430] DEBUG "GET /User/ValidateCode HTTP/1.1" 200 1255
-Sun, 11 Sep 2016 17:27:54 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:55 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:55 connectionpool.py[line:430] DEBUG "POST /Content/CheckVisitCode HTTP/1.1" 200 1
-Sun, 11 Sep 2016 17:27:55 GetPageInfo_store2pc.py[line:130] INFO crack reault: 1 (1: success, 2: failed)
-Sun, 11 Sep 2016 17:27:55 GetPageInfo_store2pc.py[line:144] INFO total---63
-Sun, 11 Sep 2016 17:27:55 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 1,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:55 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:55 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:27:57 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 69100
-Sun, 11 Sep 2016 17:27:58 GetPageInfo_store2pc.py[line:122] INFO successful
-Sun, 11 Sep 2016 17:27:59 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 2,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
-Sun, 11 Sep 2016 17:27:59 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
-Sun, 11 Sep 2016 17:27:59 connectionpool.py[line:390] DEBUG Setting read timeout to None
-Sun, 11 Sep 2016 17:28:00 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 52454
+Sun, 11 Sep 2016 17:33:51 GetPageInfo_store2pc.py[line:170] INFO start
+Sun, 11 Sep 2016 17:33:51 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 37,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:33:51 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:33:51 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:33:52 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 39869
+Sun, 11 Sep 2016 17:33:52 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:33:52 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 38,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:33:52 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:33:52 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:33:55 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 52689
+Sun, 11 Sep 2016 17:33:55 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:33:56 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 39,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:33:56 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:33:56 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:33:57 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 49601
+Sun, 11 Sep 2016 17:33:57 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:33:58 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 40,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:33:58 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:33:58 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:33:59 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 39469
+Sun, 11 Sep 2016 17:33:59 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:00 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 41,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:00 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:00 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:01 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 45513
+Sun, 11 Sep 2016 17:34:01 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:01 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 42,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:01 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:01 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:02 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 40947
+Sun, 11 Sep 2016 17:34:02 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:03 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 43,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:03 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:03 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:07 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 40044
+Sun, 11 Sep 2016 17:34:07 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:08 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 44,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:08 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:08 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:09 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 55507
+Sun, 11 Sep 2016 17:34:09 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:10 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 45,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:10 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:10 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:10 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 50362
+Sun, 11 Sep 2016 17:34:10 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:12 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 46,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:12 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:12 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:13 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 43308
+Sun, 11 Sep 2016 17:34:13 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:14 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 47,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:14 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:14 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:14 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 40486
+Sun, 11 Sep 2016 17:34:14 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:15 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 48,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:15 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:15 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:16 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 36061
+Sun, 11 Sep 2016 17:34:16 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:16 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 49,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:16 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:16 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:17 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 46516
+Sun, 11 Sep 2016 17:34:17 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:19 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 50,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:19 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:19 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:19 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 56607
+Sun, 11 Sep 2016 17:34:20 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:20 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 51,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:20 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:20 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:21 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 59373
+Sun, 11 Sep 2016 17:34:21 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:22 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 52,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:22 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:22 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:23 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 47780
+Sun, 11 Sep 2016 17:34:23 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:24 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 53,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:24 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:24 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:25 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 34692
+Sun, 11 Sep 2016 17:34:25 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:27 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 54,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:27 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:27 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:28 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 57121
+Sun, 11 Sep 2016 17:34:28 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:29 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 55,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:29 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:30 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:30 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 30101
+Sun, 11 Sep 2016 17:34:30 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:30 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 56,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:30 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:30 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:31 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 25631
+Sun, 11 Sep 2016 17:34:31 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:31 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 57,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:31 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:31 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:32 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 54687
+Sun, 11 Sep 2016 17:34:32 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:32 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 58,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:32 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:32 connectionpool.py[line:390] DEBUG Setting read timeout to None
+Sun, 11 Sep 2016 17:34:33 connectionpool.py[line:430] DEBUG "POST /List/ListContent HTTP/1.1" 200 204827
+Sun, 11 Sep 2016 17:34:34 GetPageInfo_store2pc.py[line:122] INFO successful
+Sun, 11 Sep 2016 17:34:34 GetPageInfo_store2pc.py[line:114] INFO try obtain page: 59,文书类型:判决书,裁判日期:2013-05-01 TO 2013-06-01,法院地域:四川省
+Sun, 11 Sep 2016 17:34:34 connectionpool.py[line:259] INFO Starting new HTTP connection (1): wenshu.court.gov.cn
+Sun, 11 Sep 2016 17:34:34 connectionpool.py[line:390] DEBUG Setting read timeout to None
