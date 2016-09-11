@@ -27,11 +27,11 @@ def crackVcode(name):
 
     s = StringIO.StringIO()
     s.write(response.content)
-    file = open("./123{}.jpg".format(name),'wb')
+    file = open("./jpg/123{}.jpg".format(name),'wb')
     file.write(response.content)
     file.close()
 
-    if getsize("./123{}.jpg".format(name)) < 2000:
+    if getsize("./jpg/123{}.jpg".format(name)) < 2000:
         vcode = recognizeVCode(s,name)
         result = checkVcode(vcode)
         return vcode, result
@@ -69,7 +69,7 @@ def recognizeVCode(picture_url,name):
        print "导入失败！检查是否安装PIL or tesseract-ocr"
 
 
-    image = Image.open("./123{}.jpg".format(name))
+    image = Image.open("./jpg/123{}.jpg".format(name))
     # image.show
     vcode = pytesseract.image_to_string(image)
     return vcode
