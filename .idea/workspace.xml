@@ -2,66 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e51f172-4061-4425-8fc3-76844cdb021e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/record广东省.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/record广西壮族自治区.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ListContent.8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js1/cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js1/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.10" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.11" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.12" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.13" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.15" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.16" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.17" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.18" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.19" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.20" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.21" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.22" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.23" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.24" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.248" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.25" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.26" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.27" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.28" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.29" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.30" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.31" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.32" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.33" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.34" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.35" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.36" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.37" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.38" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.39" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/ListContent.9" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GetPageInfo.py" afterPath="$PROJECT_DIR$/GetPageInfo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RecognizeVCode.py" afterPath="$PROJECT_DIR$/RecognizeVCode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.py" afterPath="$PROJECT_DIR$/Test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js1/china2.js" afterPath="$PROJECT_DIR$/js1/china2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page1/record云南省.txt" afterPath="$PROJECT_DIR$/page1/record云南省.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page1/record海南省.txt" afterPath="$PROJECT_DIR$/page1/record海南省.txt" />
     </list>
     <ignored path="China Judgement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,54 +30,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetPageInfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetPageInfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="121" column="30" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetPageInfo_store.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetPageInfo_store.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecognizeVCode.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecognizeVCode.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RecognizeVCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="825">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="record广东省.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page/record广东省.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -166,12 +67,12 @@
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/page/info广东省.txt" />
         <option value="$PROJECT_DIR$/广东省info.txt" />
-        <option value="$PROJECT_DIR$/GetPageInfo.py" />
         <option value="$PROJECT_DIR$/RecognizeVCode.py" />
         <option value="$PROJECT_DIR$/page/record广东省.txt" />
         <option value="$PROJECT_DIR$/page/record广西壮族自治区.txt" />
         <option value="$PROJECT_DIR$/GetPageInfo_store.py" />
         <option value="$PROJECT_DIR$/thread.py" />
+        <option value="$PROJECT_DIR$/GetPageInfo.py" />
       </list>
     </option>
   </component>
@@ -181,10 +82,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="347" />
+    <option name="y" value="142" />
+    <option name="width" value="1825" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,7 +113,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,13 +147,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace-python/tutorial" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -526,27 +427,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="347" y="142" width="1825" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19568734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15780821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4454638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39728096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4454638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39728096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -605,13 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2.html" />
     <entry file="file://$PROJECT_DIR$/ListContent.4" />
     <entry file="file://$PROJECT_DIR$/ListContent.12" />
     <entry file="file://$PROJECT_DIR$/ListContent.22" />
@@ -642,13 +537,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/download.py">
@@ -672,20 +567,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/重庆市info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/湖南省info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88454">
-          <caret line="4" column="341" selection-start-line="4" selection-start-column="341" selection-end-line="4" selection-end-column="341" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/重庆市info.txt" />
+    <entry file="file://$PROJECT_DIR$/湖南省info.txt" />
     <entry file="file://$PROJECT_DIR$/RandomHeader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -693,11 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/123.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/123.jpg" />
     <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -712,13 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/record.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/record.txt" />
     <entry file="file://$PROJECT_DIR$/page/info广西壮族自治区.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -737,24 +610,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-870">
           <caret line="809" column="0" selection-start-line="809" selection-start-column="0" selection-end-line="809" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/广东省info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="12" column="975" selection-start-line="12" selection-start-column="975" selection-end-line="12" selection-end-column="975" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/info广东省.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="12" column="6225" selection-start-line="12" selection-start-column="6221" selection-end-line="12" selection-end-column="6225" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/广东省info.txt" />
+    <entry file="file://$PROJECT_DIR$/page/info广东省.txt" />
     <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-1247972723/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -764,55 +624,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GetPageInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="121" column="30" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="30" />
+        <state relative-caret-position="825">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/record海南省.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/record四川省.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/record贵州省.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/record云南省.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RecognizeVCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page/record海南省.txt" />
+    <entry file="file://$PROJECT_DIR$/page/record四川省.txt" />
+    <entry file="file://$PROJECT_DIR$/page/record贵州省.txt" />
+    <entry file="file://$PROJECT_DIR$/page/record云南省.txt" />
     <entry file="file://$PROJECT_DIR$/thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,22 +645,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/record广西壮族自治区.txt">
+    <entry file="file://$PROJECT_DIR$/page/record广西壮族自治区.txt" />
+    <entry file="file://$PROJECT_DIR$/page/record广东省.txt" />
+    <entry file="file://$PROJECT_DIR$/RecognizeVCode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/record广东省.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state relative-caret-position="825">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
